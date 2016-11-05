@@ -11,3 +11,7 @@ typo3
 typo3_src
 web/index.php
 web/typo3
+web/uploads
+web/typo3temp
+web/fileadmin/_temp_
+web/fileadmin/user_upload
