@@ -1,0 +1,22 @@
+{
+	"repositories": [
+		{ "type": "composer", "url": "https://composer.typo3.org/" }
+	],
+	"name": "cedricziel/typo3-base-distribution",
+	"description" : "TYPO3 CMS Base Distribution",
+	"license": "GPL-2.0+",
+	"type": "project",
+	"require": {
+		"typo3/cms": "8.4",
+		"helhum/typo3-console": "dev-master"
+	},
+	"extra": {
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"web-dir": "web"
+		},
+		"helhum/typo3-console": {
+			"install-extension-dummy": false
+		}
+	}
+}

@@ -1,0 +1,11 @@
+version: '2'
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+        MYSQL_ROOT_PASSWORD: typo3
+        MYSQL_DATABASE: typo3
+        MYSQL_USER: typo3
+        MYSQL_PASSWORD: typo3
+    ports:
+      - '33060:3306'
