@@ -29,7 +29,7 @@ vendor/bin/typo3cms install:setup \
     --site-setup-type=site
 ```
 
-* `php -S localhost:8000 -t web`
+* `TYPO3_CONTEXT=Development php -S localhost:8000 -t web`
 * open your browser at "http://localhost:8000"
 
 ## Tasks
