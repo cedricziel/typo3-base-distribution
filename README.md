@@ -10,8 +10,8 @@ Get going quickly with TYPO3 CMS.
 ## Quickstart
 
 * `composer create-project cedricziel/typo3-base-distribution project-name 8.4`
-* `docker-compose up -d`
 * `cd project-name`
+* `docker-compose up -d`
 
 **setup unattended:**
 
@@ -29,7 +29,7 @@ vendor/bin/typo3cms install:setup \
     --site-setup-type=site
 ```
 
-* `php -S localhost:8000`
+* `TYPO3_CONTEXT=Development php -S localhost:8000 -t web`
 * open your browser at "http://localhost:8000"
 
 ## Tasks
