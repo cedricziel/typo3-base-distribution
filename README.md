@@ -9,7 +9,7 @@ Get going quickly with TYPO3 CMS.
 
 ## Quickstart
 
-* `composer create-project cedricziel/typo3-base-distribution project-name dev-master`
+* `composer create-project cedricziel/typo3-base-distribution project-name "8.5.*"`
 * `cd project-name`
 * `docker-compose up -d`
 
