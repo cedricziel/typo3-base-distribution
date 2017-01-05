@@ -7,7 +7,7 @@
 	"license": "GPL-2.0+",
 	"type": "project",
 	"require": {
-		"typo3/cms": "8.5.*",
+		"typo3/cms": "7.6.*",
 		"helhum/typo3-console": "^4.1"
 	},
 	"scripts":{
