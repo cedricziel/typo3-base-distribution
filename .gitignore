@@ -13,6 +13,5 @@ web/index.php
 web/typo3
 web/uploads
 web/typo3temp
-web/typo3conf/PackageStates.php
 web/fileadmin/_temp_
 web/fileadmin/user_upload
